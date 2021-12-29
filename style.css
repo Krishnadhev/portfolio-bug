@@ -1,0 +1,82 @@
+body{
+    background-color: #051094;
+}
+.Header{
+    height:1.5cm;
+    font-size: 1.2cm;
+    border-style: inset;
+    border-color: rgba(212, 12, 238, 0.979);
+    border-radius: 1cm;
+    font-family: cursive;
+    color: rgba(104, 20, 172, 0.979);
+}
+.Aboutme{
+    display:flex;
+    border-style:groove;
+    border-color:rgba(212, 12, 238, 0.979);
+    border-radius: 1cm;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #48AAAD;
+    margin: 50px;
+    
+}
+.Image{
+    border-style:groove;
+    border-color:rgba(212, 12, 238, 0.979);
+    border-radius: 1cm;
+
+}
+h1{
+    font-size: 50px;
+    color:rgba(104, 20, 172, 0.979);
+}
+.Wins{
+    color:rgb(240, 13, 13);
+    align-self:center ;
+    margin-left: 650px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+h3{
+    font-size: 50px;
+    color:rgba(104, 20, 172, 0.979);
+
+    
+}
+.EachWin{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style: groove;
+    border-color:rgba(212, 12, 238, 0.979); 
+    background-color:#48AAAD;
+    border-radius: 1cm;
+    margin-top: 50px;
+    width: 30cm;
+    margin-left: 7cm;
+}
+#mainnav .navbar .navbar-default{
+    padding-top: 1;
+    padding-bottom: 1;
+    font-weight: 700;
+    background-color: rgba(212, 12, 238, 0.979);
+
+
+}
+#mainav .navbar-brand{
+    color:#fff
+}
+#mainnav .container-fluid{
+    background-color: rgba(212, 12, 238, 0.979);
+}
+#mainnav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #1abc9c;
+  }
+  #mainnav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #fff;
+  }
+  #mainnav .navbar-nav li.nav-item a.nav-link.active {
+    color: #1abc9c;
+  }
